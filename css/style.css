@@ -1,0 +1,288 @@
+
+@import url(../css/icomoon.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+
+
+body{
+	background: #eeeeee;
+	font-size: 18px;
+	line-height: 1.33rem;
+	font-family: 'Raleway', sans-serif;
+	color: #303030;
+	
+}	
+a {
+	text-decoration: none;
+	color: #303030;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	margin-top: 2.73rem;
+	padding-left: 9.278rem;
+	padding-right: 9.278rem;
+}
+.logo {
+	font-size: 2.667rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	display: inline-block;
+}
+.navigation {
+	display: inline-block;
+	float: right;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 1.1rem 0 1.1rem;
+}
+.bw{
+	width: 100%;
+	margin: 5.83rem 0 10.5rem 0;
+}
+.text {
+	width: 34.17rem;
+	
+	font-size: 1.33rem;
+	line-height: 2rem;
+	text-align: right;
+	display: inline-block;
+
+}
+h1 {
+	font-size: 8.33rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 8.35rem;
+	margin: 0;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #e10011;
+}
+.slider img {
+	display: inline-block;
+	width: 20.45rem;
+	margin-left: 5.78rem;
+}
+
+.featured-work{
+	width: 66.5rem;
+	background: #fff;
+	padding: 4rem;
+	text-align: center;
+}
+header {
+	width: 32.5rem;
+	margin: auto;
+}
+h2 {
+	font-weight: 900;
+	font-size: 2.67rem;
+	line-height: 2rem;
+	margin: 2.3rem 0 1.3rem 0;
+}
+.gallery{
+	margin-top: 4.3rem;
+}
+/*.hover-img{
+	position: absolute; 
+	opacity: 0.9;
+	z-index: 1;
+	display: none;
+}
+.hover-img:hover {
+	display: block;
+	position: absolute;
+	background: rgba(79,186,116, 0.9);
+	top: 0; 
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	border-radius: 10px;
+}*/
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	color: #fff;
+	width: 13rem;
+	text-align: left;
+}
+.opt-in {
+	text-align: center;
+	margin-top: 5.5rem;
+}
+.opt-in h2{
+	text-transform: uppercase;
+}
+.opt-in p{
+	width: 31rem;
+	margin: 2rem auto 2.3rem auto;
+}
+form {
+	width: 39rem;
+	height: 3.9rem;
+	position: relative;
+	margin: auto;
+}
+input{
+	width: 39rem;
+	height: 3.9rem;
+	border-radius: 50px 50px;
+}
+.icon-envelope-o {
+	position: absolute;
+	left: 1.8rem;
+	top: 1.3rem;
+	color: #979797;
+
+}
+button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 11.7rem;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	background: #e10011;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+input:focus, button:focus{
+	outline:none;
+	color: #e10011;
+	font-weight: 700;
+	padding-left: 4rem;
+}
+
+input::-webkit-input-placeholder {color: #979797; padding-left: 4rem;font-weight: 600;
+font-style: italic;line-height: 24px;}
+input:-moz-placeholder {color: #979797; padding-left:4rem;font-weight: 600;
+font-style: italic;line-height: 24px;}
+input:-o-placeholder {color: #979797; padding-left:4rem;font-weight: 600;
+font-style: italic;line-height: 24px;}
+input:-ms-placeholder {color: #979797; left:padding-left:4rem;font-weight: 600;
+font-style: italic;
+line-height: 24px;}
+
+.opt-in .social {
+	font-size: 2rem;
+	color: #979797;
+	line-height: 5.2rem;
+	width: 5rem;
+	height: 5rem;
+	margin: 1rem;
+	margin-top: 9rem;
+	background-color:  #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+
+}
+.opt-in p{
+	color: #979797;
+
+}
+#your-co{
+	color: #303030;
+}
+a:hover, li:hover a, a:hover span {
+	color: #e10011;
+}
+button:hover{
+	background: green;
+}
+
+.img-wrap{
+	position: relative;
+	
+}
+.img-wrap img{
+	width: 100%;
+	height: auto;
+	
+}
+.img-wrap .hover-img{
+	position: absolute; 
+	z-index: 1;
+	display: none;
+
+}
+.img-wrap:hover .hover-img{
+	display: block;
+	position: absolute;
+	background: #e10011;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	border-radius: 10px;
+
+}
+.img-wrap .hover-img .hover-text{
+	position: relative;
+	top: 60%;
+	left: 10%;
+}
+	
